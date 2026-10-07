@@ -8,5 +8,5 @@ import react from '@vitejs/plugin-react'
 // same config file.
 export default defineConfig({
   plugins: [react()],
-  base: 'tattersalls-whisky-club-app/',
+  base: 'whisky-club-app/',
 })

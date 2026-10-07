@@ -1,6 +1,6 @@
 // Replace with the URL shown after deploying apps-script/Code.gs as a web app.
 // See README.md for the exact deployment steps.
-export const APPS_SCRIPT_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbzJDGKM8WgsdHeAkaSU7Bn0mfegJa7hMA2r2dYcGf2gmOnngegc-1ms1wUj6T8VVgn61Q/exec'
+export const APPS_SCRIPT_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycby4_BvjmaVu5CVm_6dAhIJCKKpP4NyfYmLIQvinS842EZq5Cqeg4smP4ylNX2aO83Gq/exec'
 
 // There used to be a PIN constant here. There no longer is one, on
 // purpose, the real PIN now lives only in the backend's Script

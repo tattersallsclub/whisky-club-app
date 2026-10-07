@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { PinGate } from './components/PinGate'
 import { AppShell } from './components/AppShell'
-import { MemberPortalScreen } from './components/MemberPortalScreen'
 import { DataProvider } from './context/DataContext'
 import { ToastProvider } from './context/ToastContext'
 import { GoogleSheetsRepository } from './data/GoogleSheetsRepository'
@@ -45,23 +44,7 @@ function AuthenticatedApp({ token }) {
  * was told to switch screens.
  */
 export default function App() {
-  const [hash, setHash] = useState(window.location.hash)
 
-  useEffect(() => {
-    function handleHashChange() {
-      setHash(window.location.hash)
-    }
-    window.addEventListener('hashchange', handleHashChange)
-    return () => window.removeEventListener('hashchange', handleHashChange)
-  }, [])
-
-  if (hash === '#my-club') {
-    return (
-      <ToastProvider>
-        <MemberPortalScreen />
-      </ToastProvider>
-    )
-  }
 
   return (
     <ToastProvider>
