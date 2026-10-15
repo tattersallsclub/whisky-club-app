@@ -12,4 +12,4 @@ export const APPS_SCRIPT_WEB_APP_URL = 'https://script.google.com/macros/s/AKfyc
 // entirely, as a PDF on Google Drive, not something this project
 // generates or maintains, this just links to it.
 export const WHISKEY_LIST_PDF_URL =
-  'https://drive.google.com/file/d/1zMeWLZtX5N1ydESmNu_J51QrHOXExJZT/view?usp=share_link'
+  'https://drive.google.com/file/d/1YJCvh0Ofga_r-vA_EyMC_zadPgLJHGua/view?usp=sharing'
